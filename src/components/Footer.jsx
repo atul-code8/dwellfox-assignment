@@ -8,13 +8,13 @@ import Youtube from "../assets/Youtube.svg";
 const Footer = () => {
   return (
     <footer>
-        <div className='flex gap-x-14 px-24 pb-[35px] border-b border-[#C3C3C3]'>
+        <div className='flex flex-col lg:flex-row gap-x-14  px-4 sm:px-24 pb-[35px] border-b border-[#C3C3C3]'>
             <div className='w-[472px] text-[#6A6A6A]'>
                 <div className='w-40 h-28 bg-black'>
                     <p className='text-white text-[57px] text-center italic font-bold'>Logo</p>
                 </div>
                 <div className='mt-3.5'>
-                    <p>Access the best and comprehensive Service Suite and products for your financial goals. Be up to date with your aggregate portfolio, and execute transactions seamlessly with no extra charges.</p>
+                    <p className='w-[272px] md:w-auto'>Access the best and comprehensive Service Suite and products for your financial goals. Be up to date with your aggregate portfolio, and execute transactions seamlessly with no extra charges.</p>
                 </div>
                 <div className='flex gap-x-4 mt-6'>
                     <img src={Facebook} alt="image not found" />
@@ -25,7 +25,7 @@ const Footer = () => {
                 <p className='mt-[52px]'>2024 Your Company - All right reserved.</p>
             </div>
 
-            <div className='flex gap-x-10'>
+            <div className='flex gap-x-10 mt-4 lg:mt-0'>
                 <div>
                     <h3 className='text-[17.5px] text-[#343434] font-semibold'>Investment Services</h3>
                     <div className='text-sm text-[#6C6363] flex flex-col gap-y-2 mt-2.5'>
@@ -68,8 +68,7 @@ const Footer = () => {
                 </div>
             </div>
         </div>
-        {/* <hr /> */}
-        <div className='text-[#6A6A6A] px-24 pb-12 mt-[35px]'>
+        <div className='text-[#6A6A6A] px-4 sm:px-24 pb-12 mt-[35px]'>
             <p><span className='font-semibold'>Disclaimer: </span>InCred Premier (Mvalu Technology Services Private Limited) is an AMFI registered Mutual Fund Distributor under ARN: 275918. Some services are offered through group companies. InCred Premier is also registered with APMI having registration no: APRN00175</p>
             <p>Mutual funds & Securities are subject to market risks, please read all your scheme/securities-related documents carefully before investing.</p>
             <p className='mt-3'>InCred Premier (Mvalu Technology Services Private Limited) of distributor for Products such as PMS, AIF, OFS, NCD etc</p>
