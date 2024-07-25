@@ -4,7 +4,7 @@ import Vector from "../assets/vector.svg";
 const Testimonials = () => {
   return (
     <div className="mb-[176px]">
-      <div className="bg-[#F5F5F5] pb-[142px]">
+      <div className="bg-[#F5F5F5] pb-[142px] pt-16">
         <h2 className="text-[40px] font-bold text-center">Testimonials</h2>
         <p className="text-base text-[#6A6A6A] text-center">
           Access the best and comprehensive Service Suite and products for your
