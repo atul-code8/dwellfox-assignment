@@ -27,17 +27,17 @@ const Home = () => {
             <img
               src={HomeBanner}
               alt="banner not found"
-              className="w-full min-h-[480px] lg:min-h-[300px]"
+              className="w-full min-h-[480px] md:min-h-[300px]"
               loading="lazy"
             />
             <div className="bg-[#00000072] w-full h-full absolute top-0 mix-blend-multiply"></div>
-            <div className="z-10 absolute top-4 left-2 lg:top-8 lg:left-10 2xl:top-16 2xl:left-24">
-              <div className="flex flex-col lg:flex-row space-x-10 lg:space-x-32 items-center">
-                <div className="bg-gradiant w-[270px] lg:w-[440px] lg:h-[308px] xl:w-[544px] h-[210px] xl:h-[401px] rounded-[10px] px-10">
-                  <form className="pt-10 flex flex-col gap-y-2 lg:gap-y-4 xl:gap-y-7">
+            <div className="w-full z-10 absolute top-6 left-0 lg:top-8 2xl:top-16 px-10">
+              <div className="flex flex-col md:flex-row md:space-x-10 lg:space-x-32 md:items-center">
+                <div className="bg-gradiant h-[222px]  lg:w-[440px] lg:h-[308px] xl:w-[544px] xl:h-[401px] rounded-[10px] px-10">
+                  <form className="py-5 lg:py-10 flex flex-col gap-y-2 lg:gap-y-4 xl:gap-y-7">
                     <input
                       type="text"
-                      className="shadow-[0px_1px_2px_1px_#0A0A0A1A_inset] rounded xl:rounded-lg p-1 xl:p-4 xl:text-base font-medium outline-none border-none text-sm px-2"
+                      className="shadow-[0px_1px_2px_1px_#0A0A0A1A_inset] rounded xl:rounded-lg p-2 xl:p-4 xl:text-base font-medium outline-none border-none text-sm px-2"
                       placeholder="Enter Full Name"
                     />
                     <div className="flex bg-white rounded xl:rounded-lg overflow-hidden">
@@ -46,24 +46,24 @@ const Home = () => {
                       </p>
                       <input
                         type="text"
-                        className="w-full shadow-[0px_1px_2px_1px_#0A0A0A1A_inset] p-1 xl:p-4 xl:text-base font-medium outline-none border-none text-sm px-2"
+                        className="w-full shadow-[0px_1px_2px_1px_#0A0A0A1A_inset] p-2 xl:p-4 xl:text-base font-medium outline-none border-none text-sm px-2"
                         placeholder="Enter Mobile Number"
                       />
                     </div>
                     <input
                       type="text"
-                      className="shadow-[0px_1px_2px_1px_#0A0A0A1A_inset] rounded xl:rounded-lg p-1 xl:p-4 xl:text-base font-medium outline-none border-none text-sm px-2"
+                      className="shadow-[0px_1px_2px_1px_#0A0A0A1A_inset] rounded xl:rounded-lg p-2 xl:p-4 xl:text-base font-medium outline-none border-none text-sm px-2"
                       placeholder="Select City"
                     />
                     <button
                       type="button"
-                      className="bg-[#DF5759] text-white uppercase text-xs p-1 xl:p-4 rounded xl:rounded-lg outline-none border-none mt-2"
+                      className="bg-[#DF5759] text-white uppercase text-xs p-2 xl:p-4 rounded xl:rounded-lg outline-none border-none mt-2"
                     >
                       Invest Now
                     </button>
                   </form>
                 </div>
-                <div className="w-auto lg:w-[535px] mt-4">
+                <div className="w-full md:w-2/3 lg:w-[535px] mt-4">
                   <h2 className="text-3xl xl:text-[40px] font-bold text-white">
                     Mutual Funds
                   </h2>
@@ -74,7 +74,7 @@ const Home = () => {
                   </p>
                   <button
                     type="button"
-                    className="bg-[#DF5759] text-white mt-7 text-lg font-bold px-8 py-3 rounded-lg"
+                    className="bg-[#DF5759] text-white mt-5 md:mt-7 text-lg font-bold px-5 md:px-8 py-2 md:py-3 rounded-lg"
                   >
                     Get Start
                   </button>

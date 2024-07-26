@@ -14,9 +14,9 @@ const Testimonials = () => {
           Access the best and comprehensive Service Suite and products for your
           financial goals. Be up <br /> to date with your aggregate portfolio,
         </p>
-        <div className="flex gap-x-4 2xl:overflow-x-scroll overflow-x-auto pb-8">
-          <div className="bg-white w-[502px] h-[281px] shadow-[5px_3px_51px_0px_#00000026] rounded-lg mt-5 text-base font-light px-[26px] py-[34px]">
-            <p className="w-[429px] text-start">
+        <div className="flex flex-col md:flex-row gap-x-4 2xl:overflow-x-scroll overflow-x-auto pb-8">
+          <div className="bg-white w-[90%] mx-auto h-auto md:w-[502px] md:h-[281px] shadow-[5px_3px_51px_0px_#00000026] rounded-lg mt-5 text-base font-light px-[26px] py-[34px]">
+            <p className=" md:w-[429px] text-start">
               I have been using Upstox for over 5 years now and it has provided
               me with an awesome experience and excellent customer support.
               Thanks to Upstox, I have also gained a lot of knowledge about
@@ -28,8 +28,8 @@ const Testimonials = () => {
               TRADING ON UPSTOX SINCE 2018
             </p>
           </div>
-          <div className="bg-white w-[502px] h-[281px] shadow-[5px_3px_51px_0px_#00000026] rounded-lg mt-5 text-base font-light px-[26px] py-[34px]">
-            <p className="w-[429px] text-start">
+          <div className="bg-white w-[90%] mx-auto h-auto md:w-[502px] md:h-[281px] shadow-[5px_3px_51px_0px_#00000026] rounded-lg mt-5 text-base font-light px-[26px] py-[34px]">
+            <p className="md:w-[429px] text-start">
               I have been using Upstox for over 5 years now and it has provided
               me with an awesome experience and excellent customer support.
               Thanks to Upstox, I have also gained a lot of knowledge about
@@ -41,8 +41,8 @@ const Testimonials = () => {
               TRADING ON UPSTOX SINCE 2018
             </p>
           </div>
-          <div className="bg-white w-[502px] h-[281px] shadow-[5px_3px_51px_0px_#00000026] rounded-lg mt-5 text-base font-light px-[26px] py-[34px]">
-            <p className="w-[429px] text-start">
+          <div className="bg-white w-[90%] mx-auto h-auto md:w-[502px] md:h-[281px] shadow-[5px_3px_51px_0px_#00000026] rounded-lg mt-5 text-base font-light px-[26px] py-[34px]">
+            <p className="md:w-[429px] text-start">
               I have been using Upstox for over 5 years now and it has provided
               me with an awesome experience and excellent customer support.
               Thanks to Upstox, I have also gained a lot of knowledge about
