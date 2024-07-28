@@ -9,7 +9,7 @@ const Footer = () => {
   return (
     <footer>
         <div className='flex flex-col lg:flex-row gap-x-14  px-4 sm:px-24 pb-[35px] border-b border-[#C3C3C3]'>
-            <div className='w-[472px] text-[#6A6A6A]'>
+            <div className='w-full md:w-[472px] text-[#6A6A6A]'>
                 <div className='w-40 h-28 bg-black'>
                     <p className='text-white text-[57px] text-center italic font-bold'>Logo</p>
                 </div>

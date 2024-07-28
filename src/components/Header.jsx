@@ -21,7 +21,7 @@ const Header = () => {
         <img src={Hamburger} alt=""  className="w-[20px] md:w-[50px]"/>
         </div>
         <div className={`${dropdownOpen ? 'block' : "hidden"} absolute left-0 top-11 md:top-20 w-full bg-white z-50 py-2`}>
-          <ul className="flex flex-wrap justify-center gap-y-4 space-x-6 py-3 text-sm">
+          <ul className="flex flex-wrap justify-center gap-y-4 space-x-6 py-3 text-sm px-3">
             <Link to="/" className="text-[#F47B20] font-medium">Home</Link>
             <Link to="/about">About Us</Link>
             <Link to="/products">Our Products</Link>

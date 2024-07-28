@@ -19,6 +19,7 @@ const Home = () => {
   return (
     <>
       <main>
+
         <section>
           <div className="bg-[#C12529] text-white py-1 px-10">
             <p className="text-[13px]">Home / Mutual Funds</p>
@@ -83,6 +84,7 @@ const Home = () => {
             </div>
           </div>
         </section>
+
         <section className="xl:px-[135px] py-[25px]">
           <div className="bg-[#F5F5F5] py-16">
             <h2 className="text-[40px] font-bold text-center">
@@ -119,6 +121,7 @@ const Home = () => {
             </p>
           </div>
         </section>
+
         <section className="relative w-full h-[1200px] xl:h-auto">
           <div className="w-full">
             <img
@@ -205,6 +208,7 @@ const Home = () => {
             </div>
           </div>
         </section>
+
         <section className="relative w-full overflow-hidden">
           <div className="bg-gradiant h-auto lg:h-[445px] text-white flex flex-col lg:flex-row items-center  px-8 lg:px-24">
             <div className="z-10">
@@ -232,6 +236,7 @@ const Home = () => {
             loading="lazy"
           />
         </section>
+
         <section>
           <div className="px-8 lg:px-24 mt-10">
             <h2 className="text-3xl lg:text-[40px] font-bold text-[#3C3C3C]">
@@ -354,6 +359,7 @@ const Home = () => {
             </div>
           </div>
         </section>
+        
       </main>
     </>
   );

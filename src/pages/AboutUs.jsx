@@ -11,6 +11,7 @@ const AboutUs = () => {
   return (
     <>
       <main>
+
         <section>
           <div className="bg-[#C12529] text-white py-1 px-10">
             <p className="text-[13px]">Home / About Us</p>
@@ -23,7 +24,7 @@ const AboutUs = () => {
               loading="lazy"
             />
             <div className="bg-[#00000072] w-full h-full absolute top-0 mix-blend-multiply"></div>
-            <div className="absolute left-0 top-3 md:top-10 px-4 md:px-20 mt-6  lg:top-14 xl:mt-20  lg:px-24 xl:w-[745px]">
+            <div className="w-full absolute left-0 top-2 md:top-10 px-4 md:px-20 mt-6  lg:top-14 xl:mt-20  lg:px-24 xl:w-[745px]">
               <h2 className="text-3xl lg:text-5xl text-white font-bold px-2">
                 Invest in your Tomorrow
               </h2>
@@ -38,9 +39,10 @@ const AboutUs = () => {
             </div>
           </div>
         </section>
+
         <section className="my-16 flex flex-col xl:flex-row space-x-5 px-4 md:px-20 lg:px-24">
           <div className="w-auto lg:w-[823px]">
-            <h2 className="md:text-[40px] text-3xl font-bold"> About Us </h2>
+            <h2 className="md:text-[40px] text-3xl font-semibold md:font-bold"> About Us </h2>
             <p className="w-full mt-5 xl:w-auto px-2">
               Established in 2020 by a team of seasoned Chartered Accountants,
               OIA Wealth is a comprehensive Wealth Management firm committed to
@@ -61,9 +63,10 @@ const AboutUs = () => {
             <img src={Image1} alt="image not found" className="w-full" />
           </div>
         </section>
+
         <section className="bg-[#F5F5F5] pb-10">
           <div className="pt-20">
-            <h2 className="text-3xl md:text-[40px] font-bold text-center">
+            <h2 className="text-3xl md:text-[40px] font-semibold md:font-bold text-center px-4 md:px-0">
               Our Values/We Stands For
             </h2>
             <p className="mt-3 text-center px-2">
@@ -122,8 +125,8 @@ const AboutUs = () => {
             </div>
           </div>
           <div className="flex flex-col xl:flex-row">
-            <div className=" xl:w-[716px] px-2 xl:px-24">
-              <h2 className="text-3xl sm:text-[40px] font-bold">
+            <div className="xl:w-[716px] px-4 xl:px-24 mt-4">
+              <h2 className="text-3xl sm:text-[40px] font-semibold md:font-bold">
                 Why Start Investing?
               </h2>
               <p className="mt-3">
@@ -153,7 +156,8 @@ const AboutUs = () => {
             </div>
           </div>
         </section>
-        <section className="">
+
+        <section className="relative">
           <div className="bg-gradiant h-[142px] xl:h-[274px] relative overflow-hidden">
             <img src={Design} alt="" className="w-full mix-blend-multiply" />
             <div className="absolute z-10 text-white top-0 md:px-24 px-4 xl:py-5 xl:w-1/2">
@@ -175,6 +179,7 @@ const AboutUs = () => {
             </div>
           </div>
         </section>
+
         <section className="min-h-[315px]">
           <div className="relative px-24 bg-[#F5F5F5] overflow-hidden min-h-[315px]">
             <img src={Pattern} alt="" className="w-full" />
@@ -183,7 +188,7 @@ const AboutUs = () => {
               <h2 className="mt-5 sm:mt-10 xl:mt-16 text-center text-3xl md:text-[40px] font-semibold">
                 Legacy of Committed Excellence
               </h2>
-              <p className="text-center xl:w-[716px] mx-auto mt-2">
+              <p className="text-center xl:w-[716px] mx-auto mt-2 px-4 md:px-0">
                 Access the best and comprehensive Service Suite and products for
                 your financial goals. Be up to date with your aggregate
                 portfolio,
@@ -225,6 +230,7 @@ const AboutUs = () => {
             </div>
           </div>
         </section>
+
       </main>
     </>
   );

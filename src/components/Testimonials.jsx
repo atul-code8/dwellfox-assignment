@@ -9,8 +9,8 @@ const Testimonials = () => {
   return (
     <div className="mb-[176px]">
       <div className="bg-[#F5F5F5] pb-[142px] pt-16">
-        <h2 className="text-3xl md:text-[40px] font-bold text-center">Testimonials</h2>
-        <p className="text-base text-[#6A6A6A] text-center">
+        <h2 className="text-3xl md:text-[40px] font-semibold md:font-bold text-center">Testimonials</h2>
+        <p className="text-base text-[#6A6A6A] text-center px-4 md:px-0">
           Access the best and comprehensive Service Suite and products for your
           financial goals. Be up <br /> to date with your aggregate portfolio,
         </p>
